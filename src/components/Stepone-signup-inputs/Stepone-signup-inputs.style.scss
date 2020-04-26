@@ -1,0 +1,75 @@
+.container-input {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+    padding-bottom: 50px;
+  
+}
+.form-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    form {
+        display: flex;
+        align-items: center;
+    }
+    p {
+        color: #919191;
+    }
+    input[type="text"],
+    input[type="number"],
+    input[type="email"] {
+        height: 37px;
+        width: 50%;
+        border: solid 2px #eaeaea;
+    }
+    input[type="radio"] {
+        width: 100px;
+        height: 20px;
+    }
+    .container-radio {
+        width: 57%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .container-date {
+        display: flex;
+        text-align: left;
+        margin-right: auto;
+        width: 61%;
+        p {
+            margin-left: 20px;
+        }
+    }
+    select {
+        height: 37px;
+        width: 50%;
+        border: solid 2px #eaeaea;
+        /* width: 100px; */
+        font-family: vazir;
+        color: #919191;
+    }
+    textarea {
+        resize: none;
+        height: 91px;
+        width: 50%;
+        border: solid 2px #eaeaea;
+    }
+    .tel-container {
+        text-align: left;
+        margin-right: auto;
+        width: 85%;
+        position: relative;
+        input[type="submit"] {
+            background: white;
+            position: absolute;
+            top: -23px;
+            left: 10px;
+            border: 1px black;
+            cursor: pointer;
+        }
+    }
+}

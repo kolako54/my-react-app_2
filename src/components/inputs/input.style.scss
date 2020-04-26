@@ -1,0 +1,24 @@
+.form {
+    position: absolute;
+    top: 195px;
+    right: 69px;
+    input {
+        border: 1px solid #eaeaea;
+        width: 200px;
+        height: 40px;
+        padding: 10px;
+        border-right-color: #5b93b0;
+        border-right-width: 4px;
+        margin: 10px;
+        font-family: vazir;
+        font-size: 12px;
+        color: #919191;
+        outline: none;
+    }
+    .containerBtn {
+      display: flex;
+    bottom: 30px;
+    margin-top: 40px;
+    right: 68px;
+    }
+}

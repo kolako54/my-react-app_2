@@ -1,0 +1,40 @@
+.steps {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    .step {
+        width: 150px;
+        height: 50px;
+        margin-top: 3%;
+        border-radius: 3px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+        z-index: 2;
+        border: 1px solid #898989;
+        &.step-2,&.step-1,&.step-3,&.step-4 {
+            background: linear-gradient(to right, #539d73, #5b93b0);
+            border: none;
+            p {
+                color: white;
+            }
+        }
+      
+
+        p {
+            color: #919191;
+        }
+    }
+      
+    .step:not(:last-child)::before {
+        z-index: 1;
+        content: "";
+        position: absolute;
+        background: #afafaf;
+        height: 6px;
+        width: 34%;
+        right: 150px;
+    }
+}

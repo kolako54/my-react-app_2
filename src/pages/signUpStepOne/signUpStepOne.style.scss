@@ -1,0 +1,12 @@
+.container-signup{
+    background: white;
+    min-height: 300px;
+    min-width: 800px;
+    display:flex;
+    margin: 50px;
+    flex-direction:column;
+  border-radius: 20px;
+  .logo{
+    margin: 20px;
+  }
+}

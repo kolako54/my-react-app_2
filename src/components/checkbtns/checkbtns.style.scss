@@ -1,0 +1,21 @@
+.checkbtns-container{
+      display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+    align-items: flex-start;
+    margin: auto;
+    flex-direction: column;
+    label{
+        display: flex;
+    align-items: center;
+    color: #919191;
+    }
+    input[type=checkbox]{
+        width: 15px;
+        height: 15px;
+        margin-left: 20px;
+    }
+    
+}

@@ -1,0 +1,28 @@
+@font-face {
+  src: url("./assets/Vazir-Medium.woff");
+  font-family: vazir;
+}
+
+body {
+  font-family: vazir;
+  background: linear-gradient(to left, #539d73, #5b93b0);
+  direction: rtl;
+  width: 100%!important;
+  height: 100%!important;
+}
+input{
+    font-family: vazir;
+    color: #919191
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
